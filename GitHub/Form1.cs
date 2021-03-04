@@ -27,6 +27,8 @@ namespace GitHub
             double podil = x / y;
             MessageBox.Show(soucet.ToString());
             MessageBox.Show(rozdil.ToString());
+            MessageBox.Show(soucin.ToString());
+            
 
         }
     }
