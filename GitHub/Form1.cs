@@ -28,8 +28,7 @@ namespace GitHub
             MessageBox.Show(soucet.ToString());
             MessageBox.Show(rozdil.ToString());
             MessageBox.Show(soucin.ToString());
-            
-
+            MessageBox.Show(podil.ToString());
         }
     }
 }
