@@ -22,7 +22,12 @@ namespace GitHub
             int x = int.Parse(textBox1.Text);
             int y = int.Parse(textBox2.Text);
             int soucet = x + y;
+            int rozdil = x - y;
+            double soucin = x * y;
+            double podil = x / y;
             MessageBox.Show(soucet.ToString());
+            MessageBox.Show(rozdil.ToString());
+
         }
     }
 }
