@@ -26,9 +26,13 @@ namespace GitHub
             double soucin = x * y;
             double podil = x / y;
             MessageBox.Show(soucet.ToString());
+            label1.Text = soucet.ToString();
             MessageBox.Show(rozdil.ToString());
+            label2.Text = rozdil.ToString();
             MessageBox.Show(soucin.ToString());
+            label3.Text = soucin.ToString();
             MessageBox.Show(podil.ToString());
+            label4.Text = podil.ToString();
         }
     }
 }
